@@ -1,5 +1,22 @@
-__pycache__/ 
-.ipynb_checkpoints/ 
-venv/ 
-.env 
-.env 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Environment variables (never commit secrets)
+.env
+frontend/.env
+
+# Node / Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Misc
+*.zip
+Loan_Default_Predition.zip
+
+# Model files are intentionally tracked in Git for Render deployment
+# !models/*.pkl

@@ -4,12 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="https://img.icons8.com/color/96/bank-building.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Loan Default Prediction System</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#2563eb" />
+    <title>LoanRisk AI — Enterprise ML Underwriting Engine</title>
+
+    <!-- Google Fonts: Inter (body) + Plus Jakarta Sans (headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Prevent FOUC — match Tailwind base */
+      html { background: #f4f6fb; }
+      body { font-family: 'Inter', system-ui, sans-serif; }
+      h1, h2, h3, h4, h5, h6, .font-sans {
+        font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      }
+    </style>
   </head>
-  <body class="bg-slate-50 text-slate-800 antialiased font-['Plus_Jakarta_Sans',sans-serif]">
+  <body class="bg-[#f4f6fb] text-slate-800 antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
